@@ -1,0 +1,43 @@
+<form [formGroup]="interventionForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="Adresse">Adresse</label>
+    <input id="Adresse" formControlName="Adresse" type="text">
+    <div *ngIf="interventionForm.get('Adresse')?.invalid && interventionForm.get('Adresse')?.touched">
+      Adresse is required.
+    </div>
+  </div>
+
+  <div>
+    <label for="Type d'intervention">Type d'intervention</label>
+    <input id="Type d'intervention" formControlName="Type d'intervention" type="text">
+    <div *ngIf="interventionForm.get('Type d\'intervention')?.invalid && interventionForm.get('Type d\'intervention')?.touched">
+      Type d'intervention is required.
+    </div>
+  </div>
+
+  <div>
+    <label for="Précision de l'intervention">Précision de l'intervention</label>
+    <input id="Précision de l'intervention" formControlName="Précision de l'intervention" type="text">
+    <div *ngIf="interventionForm.get('Précision de l\'intervention')?.invalid && interventionForm.get('Précision de l\'intervention')?.touched">
+      Précision de l'intervention is required.
+    </div>
+  </div>
+
+  <div>
+    <label for="Statut de l'intervention">Statut de l'intervention</label>
+    <input id="Statut de l'intervention" formControlName="Statut de l'intervention" type="text">
+    <div *ngIf="interventionForm.get('Statut de l\'intervention')?.invalid && interventionForm.get('Statut de l\'intervention')?.touched">
+      Statut de l'intervention is required.
+    </div>
+  </div>
+
+  <div>
+    <label for="Date de l'intervention">Date de l'intervention</label>
+    <input id="Date de l'intervention" formControlName="Date de l'intervention" type="text">
+    <div *ngIf="interventionForm.get('Date de l\'intervention')?.invalid && interventionForm.get('Date de l\'intervention')?.touched">
+      Date de l'intervention is required.
+    </div>
+  </div>
+
+  <button type="submit" [disabled]="interventionForm.invalid">Submit</button>
+</form>

@@ -1,0 +1,49 @@
+<div>
+  <button class="add-btn" (click)="addNewIntervention()">Add New Intervention</button>
+  <table>
+    <thead>
+    <tr>
+      <th>Adresse</th>
+      <th>Statut de l'intervention</th>
+      <th>Type d'intervention</th>
+      <th>Précision de l'intervention</th>
+      <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let intervention of interventions">
+      <td>{{ intervention.Adresse }}</td>
+      <td>{{ intervention['Statut de l\'intervention'] }}</td>
+      <td>{{ intervention['Type d\'intervention'] }}</td>
+      <td>{{ intervention['Précision de l\'intervention'] }}</td>
+      <td><button class="edit-btn" (click)="selectIntervention(intervention)">Edit</button></td>
+    </tr>
+    </tbody>
+  </table>
+
+  <div *ngIf="selectedIntervention">
+    <h3>Edit Intervention</h3>
+    <form (ngSubmit)="saveIntervention()">
+      <label>
+        Adresse:
+        <input [(ngModel)]="selectedIntervention.Adresse" name="adresse" required>
+      </label>
+      <label>
+        Statut de l'intervention:
+        <input [(ngModel)]="selectedIntervention['Statut de l\'intervention']" name="statut" required>
+      </label>
+      <label>
+        Type d'intervention:
+        <input [(ngModel)]="selectedIntervention['Type d\'intervention']" name="type" required>
+      </label>
+      <label>
+        Précision de l'intervention:
+        <input [(ngModel)]="selectedIntervention['Précision de l\'intervention']" name="precision" required>
+      </label>
+      <button class="save-btn" type="submit">Save</button>
+      <button class="cancel-btn" type="button" (click)="selectedIntervention = null">Cancel</button>
+    </form>
+  </div>
+
+  <button class="save-all-btn" (click)="saveAllInterventions()">Save All Interventions</button>
+</div>

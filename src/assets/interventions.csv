@@ -1,0 +1,43 @@
+Adresse,Type d'intervention,Précision de l'intervention,Statut de l'intervention,Date de l'intervention
+"1 Rue de la Nuée-Bleue 67000 Strasbourg
+",Technique,Installation de matériel informatique,À planifier,2023-12-21 16:00:00
+"1 Rue de la Nuée-Bleue 67000 Strasbourg
+",Ménage,Nettoyage des locaux,En cours,2023-09-19 08:00:00
+2 Rue du Dôme 67000 Strasbourg,Médiation,Gestion de conflit,Réalisé,2023-05-11 16:00:00
+2 Rue du Dôme 67000 Strasbourg,Technique,Maintenance réseau,À planifier,2023-03-07 08:00:00
+3 Rue de la Nuée-Bleue 67000 Strasbourg,Ménage,Nettoyage vitres,En cours,2023-07-06 16:00:00
+3 Rue de la Nuée-Bleue 67000 Strasbourg,Médiation,Session de formation,Réalisé,2023-12-21 16:00:00
+4 Rue du Vieux-Marché-aux-Poissons 67000 Strasbourg,Technique,Réparation de matériel,À planifier,2023-06-18 00:00:00
+4 Rue du Vieux-Marché-aux-Poissons 67000 Strasbourg,Ménage,Nettoyage des bureaux,En cours,2023-07-25 08:00:00
+5 Place Kléber 67000 Strasbourg,Médiation,Négociation,Réalisé,2023-04-04 08:00:00
+5 Place Kléber 67000 Strasbourg,Technique,Mise à jour logiciels,À planifier,2023-04-04 08:00:00
+6 Place de la Cathédrale 67000 Strasbourg,Ménage,Nettoyage des sols,En cours,2023-08-03 16:00:00
+6 Place de la Cathédrale 67000 Strasbourg,Médiation,Atelier de médiation,Réalisé,2023-11-23 16:00:00
+7 Rue des Juifs 67000 Strasbourg,Technique,Support utilisateur,À planifier,2023-12-31 00:00:00
+7 Rue des Juifs 67000 Strasbourg,Ménage,Nettoyage des équipements,En cours,2023-08-03 16:00:00
+8 Rue des Hallebardes 67000 Strasbourg,Médiation,Gestion de plainte,Réalisé,2023-01-19 16:00:00
+8 Rue des Hallebardes 67000 Strasbourg,Technique,Vérification des connexions,À planifier,2023-07-16 00:00:00
+9 Rue des Orfèvres 67000 Strasbourg,Ménage,Nettoyage des espaces communs,En cours,2023-01-10 08:00:00
+9 Rue des Orfèvres 67000 Strasbourg,Médiation,Gestion de réunion,Réalisé,2023-08-03 16:00:00
+10 Rue des Grandes Arcades 67000 Strasbourg,Technique,Diagnostic de panne,À planifier,2023-09-28 16:00:00
+10 Rue des Grandes Arcades 67000 Strasbourg,Ménage,Nettoyage des sanitaires,En cours,2023-12-12 08:00:00
+11 Rue des Francs-Bourgeois 67000 Strasbourg,Médiation,Formation technique,Réalisé,2023-01-10 08:00:00
+11 Rue des Francs-Bourgeois 67000 Strasbourg,Technique,Audit de sécurité,À planifier,2023-07-06 16:00:00
+12 Rue du Sanglier 67000 Strasbourg,Ménage,Nettoyage des façades,En cours,2023-10-26 16:00:00
+12 Rue du Sanglier 67000 Strasbourg,Médiation,Session d'écoute,Réalisé,2023-04-13 16:00:00
+13 Rue du Marché 67000 Strasbourg,Technique,Révision des systèmes,À planifier,2023-07-16 00:00:00
+13 Rue du Marché 67000 Strasbourg,Ménage,Nettoyage des meubles,En cours,2023-08-13 00:00:00
+14 Rue de la Mésange 67000 Strasbourg,Médiation,Atelier participatif,Réalisé,2023-08-31 16:00:00
+14 Rue de la Mésange 67000 Strasbourg,Technique,Optimisation réseau,À planifier,2023-09-10 00:00:00
+15 Rue des Bouchers 67000 Strasbourg,Ménage,Nettoyage des claviers,En cours,2023-05-21 00:00:00
+15 Rue des Bouchers 67000 Strasbourg,Médiation,Gestion de conflit,Réalisé,2023-05-11 16:00:00
+16 Rue des Tonneliers 67000 Strasbourg,Technique,Réparation urgente,À planifier,2023-01-19 16:00:00
+16 Rue des Tonneliers 67000 Strasbourg,Ménage,Nettoyage des luminaires,En cours,2023-12-03 00:00:00
+17 Rue du Jeu-des-Enfants 67000 Strasbourg,Médiation,Coordination de projet,Réalisé,2023-02-26 00:00:00
+17 Rue du Jeu-des-Enfants 67000 Strasbourg,Technique,Installation logiciels,À planifier,2023-07-06 16:00:00
+18 Rue du Fossé-des-Tailleurs 67000 Strasbourg,Ménage,Support technique,En cours,2023-03-16 16:00:00
+18 Rue du Fossé-des-Tailleurs 67000 Strasbourg,Médiation,Nettoyage des moquettes,Réalisé,2023-12-21 16:00:00
+19 Rue des Serruriers 67000 Strasbourg,Technique,Analyse de performance,À planifier,2023-06-08 16:00:00
+19 Rue des Serruriers 67000 Strasbourg,Ménage,Nettoyage des rideaux,En cours,2023-01-29 00:00:00
+20 Rue des Grandes Arcades 67000 Strasbourg,Médiation,Discussion médiatrice,Réalisé,2023-08-13 00:00:00
+20 Rue des Grandes Arcades 67000 Strasbourg,Technique,Sécurisation des accès,À planifier,2023-05-02 08:00:00
